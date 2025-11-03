@@ -3,18 +3,18 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "29061977"))
-API_HASH = environ.get("API_HASH", "9519882b3dcb5dd995ca75247bd934ea")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7593215921:AAEHaEBu1rOV5W7Z5if7S6dMnBN1JdP9kIE")
+API_ID = int(environ.get("API_ID", "23673651"))
+API_HASH = environ.get("API_HASH", "f032bfa12ee46e1283f6fb23cfca5c6b")
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-OWNER = int(environ.get("OWNER", "5371688792"))
+OWNER = int(environ.get("OWNER", "6677821706"))
 CREDIT = environ.get("CREDIT", "Jai shree Krishna ✨")
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '5371688792').split(',')
+TOTAL_USER = os.environ.get('TOTAL_USERS', '6677821706').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
-AUTH_USER = os.environ.get('AUTH_USERS', '5371688792').split(',')
+AUTH_USER = os.environ.get('AUTH_USERS', '6677821706').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
 if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
@@ -33,5 +33,6 @@ photoyt = 'https://tinypic.host/images/2025/03/18/YouTube-Logo.wine.png' #https:
 photocp = 'https://tinypic.host/images/2025/03/28/IMG_20250328_133126.jpg'
 photozip = 'https://envs.sh/cD_.jpg'
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.
+
 
 
