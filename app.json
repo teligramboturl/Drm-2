@@ -7,23 +7,23 @@
         "video-extract",
         "pyrogram"
     ],
-    "repository": "",
-    "success_url": "",
+    "repository": "https://github.com/teligramboturl/Drm-2.git",
+    "success_url": "https://github.com/teligramboturl/Drm-2.git",
     "stack": "container",
     "env": {
         "API_ID": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
-            "value": "22182189",
+            "value": "23673651",
             "required": true
         },
         "API_HASH": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑯𝒂𝒔𝒉",
-            "value": "",
+            "value": "f032bfa12ee46e1283f6fb23cfca5c6b",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏",
-            "value": "",
+            "value": "8585635519:AAHzU48y8U55raMuRTYaHydOuKgFtdnSt-M",
             "required": true
         },
         "OWNER": {
